@@ -1,0 +1,44 @@
+html, body {
+    height: 100%;
+  }
+body {
+    background: linear-gradient(to bottom right, blue, pink);
+    background-repeat: no-repeat;
+    background-size: cover; background-repeat: no-repeat; background-position: center center; background-attachment: fixed;
+    }
+header {
+    align-items: center;
+    text-align: center;
+}
+.nav-link {
+    color: white;
+}
+.navbar-toggler-icon {
+    color: white;
+}
+.navbar-toggler {
+    color: white;
+}
+.NewForm {
+    background-color: white;
+    border: 0;
+    border-radius: 5%;
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    z-index: 100;
+    width: 25%; 
+    height: auto;
+}
+@media (min-width:320px) and (max-width:800px) {
+    .NewForm {
+        width: 100%;
+         position: static;
+         top: 0;
+         left: 0;
+    }
+
+}
+
+
+
